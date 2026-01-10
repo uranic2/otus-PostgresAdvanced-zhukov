@@ -1,4 +1,8 @@
-﻿#  1. Ставим на VirtualBox 7.2 Ubuntu Server 25.10
+﻿Отчет по домашнему заданию "Введение в PostgreSQL в облаках: технологии для современных DBA"
+
+
+
+#  1. Ставим на VirtualBox 7.2 Ubuntu Server 25.10
 
 
 
