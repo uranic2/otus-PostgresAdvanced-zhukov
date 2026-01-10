@@ -75,12 +75,27 @@ sudo far2l -e /etc/postgresql/18/main/pg_hba.conf
 Разрешаем вход по ключу и паролю
 ```
 host    all             all             0.0.0.0/0               scram-sha-256
-host    all             all             0.0.0.0/0               md5
 ```
 
+Перестартуем, чтобы взялись настройки
+
+```bash
 sudo pg_ctlcluster 18 main restart
+```
 
 
+
+Сбрасываем пароль postgresq
+
+```
+sudo -u postgres psql
+
+-----
+
+Установить пароль для Postgres:
+\password   #12345
+\q
+```
 
 подключаемся к базе postgres по паролю из windows
 
