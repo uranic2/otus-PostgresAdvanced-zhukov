@@ -182,6 +182,6 @@ docker run --name pg-otus-2-1 -e POSTGRES_PASSWORD=p123 -p 5432:5432 -v pg_data:
 
 подключаемсмя хост компьютера через psq и убеждаемся что данные на месте
 
-![](C:\USR\Zhukov\github\otus-PostgresAdvanced-zhukov\HW-02-Docker-on-VBOX\5-1.png)
+![](5-1.png)
 
 Задание выполнено
